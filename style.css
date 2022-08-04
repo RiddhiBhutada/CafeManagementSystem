@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+/* All */
+
+.alignment {
+    text-align: justify;
+}
+
+
+/* --------------------------------Navbar-------------------------------------- */
+
+.nav-item{
+    font-size: 23px;
+    margin: 0 10px;
+}
+
+.nav-link{
+    color: black !important;
+}
+
+.nav-item .active{
+    font-weight: 600;
+    text-decoration: underline;
+}
+.navbar-brand{
+    margin-left: 30px;
+}
+
+ul{
+    margin-right: 30px;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+/* .navbar {
+    background-color: #1f550054!important;
+    background-color: #69b43e69 !important;
+} */
+
+
+/* --------------------------------------Page Title------------------------------ */
+
+#page-title{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+    padding: 100px;
+    color: white;
+}
+
+#page-title p{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+
+/* ------------------------------------------ footer --------------------------------------------- */
+
+#footer{
+    background-color: #000000d6;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.first-col img{
+    width: 150px;
+}
+
+.second-col{
+    margin-top: 25px;
+}
+
+#footer .second-col ul {
+    list-style-type: none;
+}
+
+.second-col li{
+    font-size: 20px;
+}
+
+.second-col li a{
+    color: white;
+    text-decoration: none;
+}
+
+.third-col{
+    margin-top: 25px;
+}
+
+.third-col p{
+    display: inline;
+    font-size: 17px;
+}
+
+.copywrite{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.copywrite a{
+    color: white;
+    font-size: 18px;
+}
+
+.copywrite a:hover{
+    color: white;
+}

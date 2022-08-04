@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Management System</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/0ed55e770d.js" crossorigin="anonymous"></script>
+</head>
+
+
+<style>
+    .navbar {
+        background-color: #f3f7f8;
+    }
+
+    #banner {
+        background-image: url(banner.jpg);
+        height: calc(100vh - 126px);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #banner .container-fluid {
+        height: 100%;
+    }
+
+    #banner .row {
+        height: 100%;
+    }
+
+    .banner-head {
+        font-size: 50px !important;
+        color: #3a6a1e;
+        font-weight: 600;
+        margin-bottom: 7px;
+    }
+
+    .banner-text {
+        padding: 0 90px 0 0;
+    }
+
+    .banner-text p {
+        font-size: 18px;
+    }
+
+    .banner-text a {
+        font-size: 17px;
+        background-color: #e7415e;
+        padding: 10px 20px;
+        border: 1px solid #e7415e;
+        border-radius: 50px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .subhead {
+        font-size: 23px !important;
+        color: #e7415e;
+        margin-bottom: 20px;
+    }
+
+
+
+
+    #section2 {
+        padding: 100px 0;
+    }
+
+    #section2 img {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+    }
+
+    .sec2-text {
+        padding: 0 50px 0 50px;
+    }
+
+    .sec2-text h2 {
+        color: #3a6a1e;
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    .sec2-text p {
+        font-size: 17px;
+        margin-bottom: 30px;
+    }
+
+    .sec2-text a {
+        color: white;
+        background-color: #e7415e;
+        padding: 10px 20px;
+        border-radius: 50px;
+        font-size: 17px;
+        text-decoration: none;
+    }
+
+
+
+    #section3 {
+        background-image: url(overlay.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 150px;
+        color: white;
+    }
+
+    #section3 h1 {
+        /* padding: 0 50px; */
+        font-size: 45px;
+    }
+
+
+    #section4 {
+        padding: 100px 0;
+    }
+
+    .section4-text h2 {
+        color: #3a6a1e;
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    .section4-text p {
+        font-size: 17px;
+        margin-bottom: 30px;
+    }
+
+    .section4-text a {
+        color: white;
+        background-color: #e7415e;
+        padding: 10px 20px;
+        border-radius: 50px;
+        font-size: 17px;
+        text-decoration: none;
+    }
+
+    .section4-text {
+        padding: 0 50px 0 50px;
+    }
+
+    #section4 img {
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: auto;
+    }
+</style>
+
+
+<body>
+    <section id="nav">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="logo2.png" alt=""></a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </section>
+
+    <section id="banner">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-6">
+
+                </div>
+
+                <div class="col-6 d-flex align-items-center justify-content-center">
+                    <div class="banner-text">
+                        <h1 class="banner-head">The Spice Lane</h1>
+                        <p class="subhead">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi molestias voluptatem culpa non
+                            hic
+                            vero repudiandae nulla hic eaque totam enim quisquam cumque eum, repellat deleniti. Eos!</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam praesentium rerum quia
+                            labore
+                            maiores at dignissimos ea nobis voluptas! Explicabo, maxime dolor? Harum sint eius suscipit
+                            saepe nulla ipsa ipsam eveniet magni.</p> <br>
+                        <a href="About.html">KNOW MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section2">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div>
+                        <img src="about.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-6 d-flex align-items-center justify-content-center">
+                    <div class="sec2-text">
+                        <h2>We Serve Quality Food..</h2>
+                        <p class="alignment">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam
+                            consectetur perferendis
+                            saepe itaque, porro ea earum quisquam autem impedit debitis, eos quaerat modi tenetur
+                            dolorum aliquam! Excepturi numquam quos repellendus est ipsam soluta reiciendis eos beatae
+                            dignissimos? Dolorum accusamus aperiam eligendi omnis quo. Minus, fugit atque? Debitis fugit
+                            eveniet nemo! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non enim pariatur
+                            quam minima vel facilis provident, maxime accusantium laboriosam animi! Lorem ipsum, dolor
+                            sit amet consectetur adipisicing elit. Adipisci animi labore quas, impedit</p>
+
+                        <a href="About.html">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="section3">
+        <div class="container text-center">
+            <h1>"Food for the body is not enough, There must be food for the soul."</h1>
+        </div>
+    </section>
+
+
+    <section id="section4">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 d-flex align-items-center justify-content-center">
+                    <div class="section4-text">
+                        <h2>Discover Our Eats...</h2>
+                        <p class="alignment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias cumque
+                            ducimus accusantium eligendi nobis in magnam? Nemo cumque omnis, ratione hic ipsa sequi
+                            debitis eius nulla nostrum, fugit voluptas. Laborum, nesciunt excepturi. Quibusdam, dicta
+                            ipsum minima, nisi obcaecati, odio fugit laboriosam vel sed laborum voluptates aliquam
+                            fugiat corrupti! Assumenda, nemo</p>
+                        <p class="alignment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum natus
+                            corrupti quos iure ab repellendus inventore nobis tenetur, molestias maiores officia
+                            voluptatibus asperiores quibusdam! Omnis ipsa necessitatibus blanditiis enim natus.</p>
+                        <a href="products.html">SEE FULL MENU</a>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <img src="p10.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- --------------------------------------------- Footer ----------------------------------------->
+    <section id="footer">
+        <div class="container">
+            <div class="footer">
+                <div class="row">
+                    <div class="col-2 p-4 d-flex align-items-center justify-content-center">
+                        <div class="first-col text-center">
+                            <img src="logo2.png" alt="" class="">
+                            <!-- <p class="alignment">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
+                                consectetur illo
+                                voluptatibus atque voluptates dignissimos optio itaque distinctio Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Unde, quas! quos veniam.</p> -->
+                        </div>
+                    </div>
+
+                    <div class="col-5 text-center">
+                        <div class="second-col">
+                            <h3>Quick Links</h3>
+                            <br>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="About.html">About us</a></li>
+                                <li><a href="products.html">Products</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-5 ">
+                        <div class="third-col">
+                            <h3>Contact Info</h3>
+                            <br>
+                            <div>
+                                <i class="fa-solid fa-house"></i>
+                                <p>2nd Floor, Above Bank Of Baroda Opposite To RADO Showroom, Jangali Maharaj Rd, Pune,
+                                    Maharashtra 411005</p>
+                            </div>
+                            <br>
+                            <div>
+                                <i class="fa-solid fa-envelope"></i>
+                                <p>infinitegraphixads@gmail.com</p>
+                            </div>
+                            <br>
+                            <div>
+                                <i class="fa-solid fa-phone"></i>
+                                <p>+91-88559 55159</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="copywrite">
+        <div class="container-fluid">
+            <div class="text-center">
+                © 2022 Copyright: <a href="index.html">SpiceLane.com</a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
